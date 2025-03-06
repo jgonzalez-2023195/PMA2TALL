@@ -18,7 +18,7 @@ let product = {
 
 let newPrice = product.price * 0.1
 product.discountedPrice = newPrice
-// console.log('El producto es: ', product);
+console.log('El producto es: ', product);
 
 /* Ejercicio 1.2
 Define un array llamado carrito que contenga varios objetos, 
@@ -54,8 +54,8 @@ newProduct2.totalPrice = totalPrice1
 cart.push(newProduct2)
 
 let totalCartPrice = cart.reduce((total, product) => total + product.totalPrice, 0)
-/* console.log('Carrito: ', cart);
-console.log('El costo total del carrito: ', cart, 'es de: ', `$ ${totalCartPrice.toFixed(2)}`);  */
+console.log('Carrito: ', cart);
+console.log('El costo total del carrito: ', cart, 'es de: ', `$ ${totalCartPrice.toFixed(2)}`); 
 
 /* Ejercicio 1.3
 Define un array llamado inventario, donde cada elemento sea un objeto que represente un producto con las siguientes propiedades:
